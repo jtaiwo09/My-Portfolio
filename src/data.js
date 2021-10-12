@@ -1,25 +1,27 @@
-import project1 from './img/projects/project1.png';
-import project2 from './img/projects/project2.png';
+import beach_resort from './img/projects/beach_resort.png';
+import alan_ai from './img/projects/alan_ai.png';
+import social_app from './img/projects/social_app.png';
+import amazon_clone from './img/projects/amazon_clone.png';
 
 export const products = [
     {
         id: 1,
-        img: project1,
+        img: beach_resort,
         link: 'https://beach-resort007.netlify.app'
     },
     {
         id: 2,
-        img: project2,
+        img: alan_ai,
         link: 'https://ai-news-application.netlify.app'
     },
     {
         id: 3,
-        img: 'https://blog.hubspot.com/hs-fs/hubfs/lyft-landing-page.png?width=667&height=501&name=lyft-landing-page.png',
+        img: social_app,
         link: 'https://socialapp-53957.web.app'
     },
     {
         id: 4,
-        img: 'https://blog.hubspot.com/hs-fs/hubfs/lyft-landing-page.png?width=667&height=501&name=lyft-landing-page.png',
+        img: amazon_clone,
         link: 'https://clone-435ec.web.app'
     },
 ]
